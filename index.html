@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid pb-2" style="background: #a8d1ff;">
+    <div class="col-4 mx-auto">
+        <p class="title text-center pt-2 title"><b>Survey Form</b></p>
+    </div>
+    <div class="col-8 mx-auto rounded form pb-2" style="background: white;">
+        <p class="text-center pt-3 pb-3">Let us know how can improve free Codecamp</p>
+        <form class="form">
+            <div class="form-group row justify-content-center">
+                <label for="name" class="col-sm-2   col-form-label   text-right">*Name: </label>
+                <div class="col-sm-4">
+                    <input type="text" id="name" class="form-control form-control-sm text-left"
+                           placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="form-group row justify-content-center align-items-baseline">
+                <label for="name" class="col-sm-2  text-right">*Email: </label>
+                <div class="col-sm-4">
+                    <input type="text" id="email" class="form-control form-control-sm text-left"
+                           placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="form-group row justify-content-center align-items-baseline">
+                <label for="age" class="col-sm-2   col-form-label text-right">*Age: </label>
+                <div class="col-sm-4">
+                    <input type="text" id="age" class="form-control form-control-sm text-left"
+                           placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="form-group row justify-content-start ">
+                <label for="job" class="col-sm-5   text-right ">Which option best describes
+                    your current role? </label>
+                <div class="col-sm-2" id="job" >
+                    <select class="form-control form-control-sm">
+                        <option disabled>Select an option</option>
+                        <option selected value="student">Student</option>
+                        <option value="fulltimejob">Full time job</option>
+                        <option value=fulltimelearned>Full time learned</option>
+                        <option value="nottosay">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row justify-content-start">
+                <label for="name" class="col-sm-5  text-right">* How likely is that you would recommend
+                    freeCodeCamp to a friend? </label>
+                <div class="col-sm-4">
+                    <form>
+                        <div>
+                            <input type="radio" value="definitely" name="dzen">Definitely
+                        </div>
+                        <div>
+                            <input type="radio" value="maybe" name="dzen">Maybe
+                        </div>
+                        <div>
+                            <input type="radio" value="not sure" name="dzen">Not sure
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="form-group row justify-content-start align-items-baseline">
+                <label for="select_option" class="col-sm-5  text-right">What do you like most in FCC: </label>
+                <div class="col-sm-3">
+                    <select class="form-control form-control-sm " id="select_option">
+                        <option disabled selected>Select an option</option>
+                        <option>Chalenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row justify-content-start">
+                <label for="name" class="col-sm-5  text-right">* How likely is that you would recommend
+                    freeCodeCamp to a friend? </label>
+                <div class="col-sm-4">
+                    <form>
+                        <div>
+                            <input type="checkbox" value="front-end-projects" name="dzen"> Front-end Projects
+                        </div>
+                        <div>
+                            <input type="checkbox" value="back-end-projects" name="dzen"> Back-end Projects
+                        </div>
+                        <div>
+                            <input type="checkbox" value="data-visulization" name="dzen"> Data Visualization
+                        </div>
+                        <div>
+                            <input type="checkbox" value="challenges" name="dzen"> Challenges
+                        </div>
+                        <div>
+                            <input type="checkbox" value="open-source-community" name="dzen"> Open Source Community
+                        </div>
+                        <div>
+                            <input type="checkbox" value="help-rooms" name="dzen"> Gitter help rooms
+                        </div>
+                        <div>
+                            <input type="checkbox" value="videos" name="dzen"> Videos
+                        </div>
+                        <div>
+                            <input type="checkbox" value="city-meetups" name="dzen"> City Meetups
+                        </div>
+                        <div>
+                            <input type="checkbox" value="wiki" name="dzen"> Wiki
+                        </div>
+                        <div>
+                            <input type="checkbox" value="forum" name="dzen"> Forum
+                        </div>
+                        <div>
+                            <input type="checkbox" value="additional-courses" name="dzen"> Additional Courses
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="form-group row justify-content-start">
+                <label for="age" class="col-sm-5 text-right">Any Comments or Suggestions?</label>
+                <div class="col-sm-3">
+                    <textarea rows="2" placeholder="Enter your comment here.."></textarea>
+                </div>
+            </div>
+            <div class="form-group row justify-content-center">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+</body>
+</html>
